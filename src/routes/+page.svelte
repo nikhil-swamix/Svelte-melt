@@ -3,8 +3,7 @@
     import { writable } from 'svelte/store';
     // import { ChevronRight, Check } from '$icons/index.js';
 
-    import 'radix-icons-svelte';
-
+    import { ChevronDoubleRightSolid as ChevronRight, CheckSolid as Check } from 'flowbite-svelte-icons';
     const tipsAndTricks = writable(true);
     const hideMeltUI = writable(false);
     const wordWrap = writable(true);
